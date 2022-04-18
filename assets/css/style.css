@@ -1,5 +1,9 @@
 body {
     background-color: #ffffff; 
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
 }
 
 h1, 
@@ -59,25 +63,12 @@ p {
     font-family: 'Inter', sans-serif;
     
 }
-.answer {
-    font-family: 'Varela Round', sans-serif;
-    margin-left: 2%;
-  }
-  
 
-.ui-datepicker {
-    z-index: 9999 !important;
-}
 
-.now {
-    font-family: 'Inconsolata', monospace;
-    color: rgb(15, 15, 15);
-    font-size:22px;
-    text-shadow: 1px 1px darkslategrey;
-    }
-  
-  .answer {
-    font-family: 'Varela Round', sans-serif;
-    margin-left: 2%;
-    color: var(--font-answer);
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
   }
