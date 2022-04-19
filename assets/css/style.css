@@ -4,8 +4,6 @@ body {
 }
 
 
-}
-
 h1, 
 h2 {
     color: #313740;
@@ -27,6 +25,17 @@ a:hover {
     font-family: 'Archivo', sans-serif;
 }
 
+.btn {
+    background-color: rgb(171, 143, 128);
+    color: white; 
+    border: none;
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
 .btn:focus, .btn:active, .btn:visited, .btn:hover {
     outline: none !important;
     box-shadow: none !important;
@@ -34,25 +43,15 @@ a:hover {
     background-color: rgb(171, 143, 128);
 }
 
-.btn {
+.btn-grid-even {
     background-color: rgb(171, 143, 128);
     color: white; 
     border: none;
-    margin-left: 800px;
-    margin-bottom: 100px;
-
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
-.btn-info {
-    background-color: rgb(171, 143, 128);
-    color: white;
-    border: none;
-
-}
-
-.ms-1 {
-    margin-left: 20em;
-  }
   
 
 span {
@@ -61,7 +60,8 @@ span {
 
 p {
     font-family: 'Inter', sans-serif;
-    
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -72,3 +72,51 @@ p {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+  
+
+
+/* Media Queries that allow webpage to fit smaller screen sizes */ 
+@media screen and (max-width: 991px) {
+    #weather-dashboard {
+        flex: 0 0 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #form{
+        flex: 0 0 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+         
+    }
+ 
+  }
+  
+  /*If the screen is lesser than 768px, the header and body section will break down vertically, the texts will stack together in multiple lines */
+  @media screen and (max-width: 768px) {   
+    header {
+      flex-direction: column;    
+      justify-content: center;
+    }
+    #weather-dashboard {
+        flex-direction: column;
+    }
+
+    #form {
+        flex: 0 0 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;  
+        
+    }
+  
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+    .col-xs-12.div_label{
+   text-align:left !important;
+   }
+    main {
+      max-width: 1200px;
+  
+    }
+}}
