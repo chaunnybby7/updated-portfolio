@@ -21,7 +21,7 @@ Submit an updated LinkedIn profile
 ## Instructions
 
 
-1. <a href="https://chaunnybby7.github.io/updated-portfolio/">Updated Portfolio</a>
+1. <a href="https://chaunnybby7.github.io/updated-portfolio/">Updated Portfolio Repo</a>
 
 
 2. <a href="https://github.com/chaunnybby7">Updated GitHub Profile</a>
